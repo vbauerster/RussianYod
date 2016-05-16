@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 3.0.3.70 on 2016-04-06 at 07:24 (GMT+3)-->
-<!--Last edited by Ukelele version 3.0.3.70 on 2016-05-16 at 20:57 (GMT+4:30)-->
+<!--Last edited by Ukelele version 3.0.3.70 on 2016-05-16 at 21:00 (GMT+4:30)-->
 <keyboard group="126" id="-16090" name="Russian Yod" maxout="2">
 	<layouts>
 		<layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
@@ -59,7 +59,7 @@
 			<key code="7" action="q"/>
 			<key code="8" action="j"/>
 			<key code="9" action="k"/>
-			<key code="11" output="x"/>
+			<key code="11" output="и"/>
 			<key code="12" action=";"/>
 			<key code="13" action=", 2"/>
 			<key code="14" action="."/>
@@ -78,12 +78,12 @@
 			<key code="27" action="!"/>
 			<key code="28" output=")"/>
 			<key code="29" output="]"/>
-			<key code="30" output="@"/>
+			<key code="30" output="ъ"/>
 			<key code="31" action="r"/>
 			<key code="32" action="g"/>
-			<key code="33" output="/"/>
+			<key code="33" output="х"/>
 			<key code="34" action="c"/>
-			<key code="35" output="l"/>
+			<key code="35" output="з"/>
 			<key code="36" output="&#x000D;"/>
 			<key code="37" action="n"/>
 			<key code="38" action="h"/>
@@ -92,7 +92,7 @@
 			<key code="41" action="s"/>
 			<key code="42" output="\"/>
 			<key code="43" action="w"/>
-			<key code="44" output="z"/>
+			<key code="44" output="."/>
 			<key code="45" action="b"/>
 			<key code="46" action="m"/>
 			<key code="47" action="v"/>
@@ -1056,7 +1056,7 @@
 			<when state="none" output="!"/>
 		</action>
 		<action id="&#x0027;">
-			<when state="none" output="&#x0027;"/>
+			<when state="none" output="я"/>
 		</action>
 		<action id="*">
 			<when state="none" output="*"/>
@@ -1071,10 +1071,10 @@
 			<when state="none" output="ц"/>
 		</action>
 		<action id="-">
-			<when state="none" output="-"/>
+			<when state="none" output="э"/>
 		</action>
 		<action id=".">
-			<when state="none" output="."/>
+			<when state="none" output="у"/>
 		</action>
 		<action id=";">
 			<when state="none" output="й"/>
@@ -1086,73 +1086,73 @@
 			<when state="none" output="="/>
 		</action>
 		<action id="a">
-			<when state="none" output="a"/>
+			<when state="none" output="ф"/>
 		</action>
 		<action id="b">
-			<when state="none" output="b"/>
+			<when state="none" output="т"/>
 		</action>
 		<action id="c">
-			<when state="none" output="c"/>
+			<when state="none" output="ш"/>
 		</action>
 		<action id="d">
-			<when state="none" output="d"/>
+			<when state="none" output="р"/>
 		</action>
 		<action id="e">
-			<when state="none" output="e"/>
+			<when state="none" output="в"/>
 		</action>
 		<action id="f">
-			<when state="none" output="f"/>
+			<when state="none" output="н"/>
 		</action>
 		<action id="g">
-			<when state="none" output="g"/>
+			<when state="none" output="г"/>
 		</action>
 		<action id="h">
-			<when state="none" output="h"/>
+			<when state="none" output="о"/>
 		</action>
 		<action id="i">
-			<when state="none" output="i"/>
+			<when state="none" output="п"/>
 		</action>
 		<action id="j">
-			<when state="none" output="j"/>
+			<when state="none" output="с"/>
 		</action>
 		<action id="k">
-			<when state="none" output="k"/>
+			<when state="none" output="м"/>
 		</action>
 		<action id="m">
-			<when state="none" output="m"/>
+			<when state="none" output="ь"/>
 		</action>
 		<action id="n">
-			<when state="none" output="n"/>
+			<when state="none" output="д"/>
 		</action>
 		<action id="o">
-			<when state="none" output="o"/>
+			<when state="none" output="ы"/>
 		</action>
 		<action id="p">
-			<when state="none" output="p"/>
+			<when state="none" output="к"/>
 		</action>
 		<action id="q">
-			<when state="none" output="q"/>
+			<when state="none" output="ч"/>
 		</action>
 		<action id="r">
-			<when state="none" output="r"/>
+			<when state="none" output="щ"/>
 		</action>
 		<action id="s">
-			<when state="none" output="s"/>
+			<when state="none" output="ж"/>
 		</action>
 		<action id="t">
-			<when state="none" output="t"/>
+			<when state="none" output="л"/>
 		</action>
 		<action id="u">
-			<when state="none" output="u"/>
+			<when state="none" output="а"/>
 		</action>
 		<action id="v">
-			<when state="none" output="v"/>
+			<when state="none" output="ю"/>
 		</action>
 		<action id="w">
-			<when state="none" output="w"/>
+			<when state="none" output="б"/>
 		</action>
 		<action id="y">
-			<when state="none" output="y"/>
+			<when state="none" output="е"/>
 		</action>
 	</actions>
 </keyboard>
