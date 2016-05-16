@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>org.sil.ukelele.keyboardlayout.dvorak</string>
+	<string>org.sil.ukelele.keyboardlayout.ruyod</string>
 	<key>CFBundleName</key>
 	<string>ruyod</string>
 	<key>CFBundleVersion</key>
@@ -11,7 +11,7 @@
 	<key>KLInfo_Russian Yod</key>
 	<dict>
 		<key>TISInputSourceID</key>
-		<string>org.sil.ukelele.keyboardlayout.dvorak.russianyod</string>
+		<string>org.sil.ukelele.keyboardlayout.ruyod.russianyod</string>
 		<key>TISIntendedLanguage</key>
 		<string>ru</string>
 	</dict>
