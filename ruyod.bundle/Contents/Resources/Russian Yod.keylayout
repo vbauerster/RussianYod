@@ -1,10 +1,10 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 3.0.3.70 on 2016-04-06 at 07:24 (GMT+3)-->
-<!--Last edited by Ukelele version 3.0.3.70 on 2016-05-16 at 22:04 (GMT+4:30)-->
+<!--Last edited by Ukelele version 3.0.3.70 on 2016-05-16 at 22:32 (GMT+4:30)-->
 <keyboard group="126" id="-19534" name="Russian Yod" maxout="2">
 	<layouts>
-		<layout first="0" last="17" mapSet="JIS" modifiers="Modifiers"/>
+		<layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
 		<layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
 		<layout first="21" last="23" mapSet="JIS" modifiers="Modifiers"/>
 		<layout first="30" last="30" mapSet="JIS" modifiers="Modifiers"/>
@@ -46,55 +46,55 @@
 	</modifierMap>
 	<keyMapSet id="ANSI">
 		<keyMap index="0">
-			<key code="0" action="a"/>
-			<key code="1" action="o"/>
-			<key code="2" action="e"/>
-			<key code="3" action="u"/>
-			<key code="4" action="d"/>
-			<key code="5" action="i"/>
-			<key code="6" action="&#x0027;"/>
-			<key code="7" action="q"/>
-			<key code="8" action="j"/>
-			<key code="9" action="k"/>
+			<key code="0" output="ф"/>
+			<key code="1" output="ы"/>
+			<key code="2" output="в"/>
+			<key code="3" output="а"/>
+			<key code="4" output="р"/>
+			<key code="5" output="п"/>
+			<key code="6" output="я"/>
+			<key code="7" output="ч"/>
+			<key code="8" output="с"/>
+			<key code="9" output="м"/>
 			<key code="11" output="и"/>
-			<key code="12" action=";"/>
-			<key code="13" action=", 2"/>
-			<key code="14" action="."/>
-			<key code="15" action="p"/>
-			<key code="16" action="f"/>
-			<key code="17" action="y"/>
+			<key code="12" output="й"/>
+			<key code="13" output="ц"/>
+			<key code="14" output="у"/>
+			<key code="15" output="к"/>
+			<key code="16" output="н"/>
+			<key code="17" output="е"/>
 			<key code="18" output="1"/>
 			<key code="19" output="2"/>
 			<key code="20" output="3"/>
 			<key code="21" output="4"/>
-			<key code="22" action="="/>
+			<key code="22" output="="/>
 			<key code="23" output="5"/>
 			<key code="24" output="="/>
-			<key code="25" action="+"/>
-			<key code="26" action="*"/>
-			<key code="27" action="!"/>
+			<key code="25" output="+"/>
+			<key code="26" output="*"/>
+			<key code="27" output="!"/>
 			<key code="28" output="8"/>
 			<key code="29" output="0"/>
 			<key code="30" output="ъ"/>
-			<key code="31" action="r"/>
-			<key code="32" action="g"/>
+			<key code="31" output="щ"/>
+			<key code="32" output="г"/>
 			<key code="33" output="х"/>
-			<key code="34" action="c"/>
+			<key code="34" output="ш"/>
 			<key code="35" output="з"/>
 			<key code="36" output="&#x000D;"/>
-			<key code="37" action="n"/>
-			<key code="38" action="h"/>
-			<key code="39" action="-"/>
-			<key code="40" action="t"/>
-			<key code="41" action="s"/>
+			<key code="37" output="д"/>
+			<key code="38" output="о"/>
+			<key code="39" output="э"/>
+			<key code="40" output="л"/>
+			<key code="41" output="ж"/>
 			<key code="42" output="\"/>
-			<key code="43" action="w"/>
+			<key code="43" output="б"/>
 			<key code="44" output="."/>
-			<key code="45" action="b"/>
-			<key code="46" action="m"/>
-			<key code="47" action="v"/>
+			<key code="45" output="т"/>
+			<key code="46" output="ь"/>
+			<key code="47" output="ю"/>
 			<key code="48" output="&#x0009;"/>
-			<key code="49" action=" "/>
+			<key code="49" output=" "/>
 			<key code="50" output="ё"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="53" output="&#x001B;"/>
@@ -281,7 +281,7 @@
 			<key code="19" output="@"/>
 			<key code="20" output="#"/>
 			<key code="21" output="$"/>
-			<key code="22" action="= 1"/>
+			<key code="22" output="^"/>
 			<key code="23" output="©"/>
 			<key code="24" output="≠"/>
 			<key code="25" output="{"/>
@@ -954,108 +954,4 @@
 			<key code="512" output=""/>
 		</keyMap>
 	</keyMapSet>
-	<actions>
-		<action id=" ">
-			<when state="none" output=" "/>
-		</action>
-		<action id="!">
-			<when state="none" output="-"/>
-		</action>
-		<action id="&#x0027;">
-			<when state="none" output="я"/>
-		</action>
-		<action id="*">
-			<when state="none" output="7"/>
-		</action>
-		<action id="+">
-			<when state="none" output="9"/>
-		</action>
-		<action id=", 2">
-			<when state="none" output="ц"/>
-		</action>
-		<action id="-">
-			<when state="none" output="э"/>
-		</action>
-		<action id=".">
-			<when state="none" output="у"/>
-		</action>
-		<action id=";">
-			<when state="none" output="й"/>
-		</action>
-		<action id="=">
-			<when state="none" output="6"/>
-		</action>
-		<action id="= 1">
-			<when state="none" output="^"/>
-		</action>
-		<action id="a">
-			<when state="none" output="ф"/>
-		</action>
-		<action id="b">
-			<when state="none" output="т"/>
-		</action>
-		<action id="c">
-			<when state="none" output="ш"/>
-		</action>
-		<action id="d">
-			<when state="none" output="р"/>
-		</action>
-		<action id="e">
-			<when state="none" output="в"/>
-		</action>
-		<action id="f">
-			<when state="none" output="н"/>
-		</action>
-		<action id="g">
-			<when state="none" output="г"/>
-		</action>
-		<action id="h">
-			<when state="none" output="о"/>
-		</action>
-		<action id="i">
-			<when state="none" output="п"/>
-		</action>
-		<action id="j">
-			<when state="none" output="с"/>
-		</action>
-		<action id="k">
-			<when state="none" output="м"/>
-		</action>
-		<action id="m">
-			<when state="none" output="ь"/>
-		</action>
-		<action id="n">
-			<when state="none" output="д"/>
-		</action>
-		<action id="o">
-			<when state="none" output="ы"/>
-		</action>
-		<action id="p">
-			<when state="none" output="к"/>
-		</action>
-		<action id="q">
-			<when state="none" output="ч"/>
-		</action>
-		<action id="r">
-			<when state="none" output="щ"/>
-		</action>
-		<action id="s">
-			<when state="none" output="ж"/>
-		</action>
-		<action id="t">
-			<when state="none" output="л"/>
-		</action>
-		<action id="u">
-			<when state="none" output="а"/>
-		</action>
-		<action id="v">
-			<when state="none" output="ю"/>
-		</action>
-		<action id="w">
-			<when state="none" output="б"/>
-		</action>
-		<action id="y">
-			<when state="none" output="е"/>
-		</action>
-	</actions>
 </keyboard>
