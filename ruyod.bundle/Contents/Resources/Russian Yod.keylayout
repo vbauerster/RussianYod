@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 3.0.3.70 on 2016-04-06 at 07:24 (GMT+3)-->
-<!--Last edited by Ukelele version 3.0.3.70 on 2016-05-16 at 20:30 (GMT+4:30)-->
-<keyboard group="126" id="-7849" name="Russian Yod" maxout="2">
+<!--Last edited by Ukelele version 3.0.3.70 on 2016-05-16 at 20:43 (GMT+4:30)-->
+<keyboard group="126" id="-16090" name="Russian Yod" maxout="2">
 	<layouts>
 		<layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
 		<layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
@@ -102,7 +102,9 @@
 			<key code="51" output="&#x0008;"/>
 			<key code="53" output="&#x001B;"/>
 			<key code="55" output=""/>
+			<key code="56" output=""/>
 			<key code="57" output=""/>
+			<key code="58" output=""/>
 			<key code="64" output="&#x0010;"/>
 			<key code="66" output="&#x001D;"/>
 			<key code="67" output="*"/>
@@ -437,8 +439,8 @@
 			<key code="126" output="&#x001E;"/>
 		</keyMap>
 		<keyMap index="4">
-			<key code="0" output="A"/>
-			<key code="1" output="O"/>
+			<key code="0" output="Ф"/>
+			<key code="1" output="Ы"/>
 			<key code="2" output="E"/>
 			<key code="3" output="U"/>
 			<key code="4" output="D"/>
@@ -490,6 +492,8 @@
 			<key code="51" output="&#x0008;"/>
 			<key code="53" output="&#x001B;"/>
 			<key code="55" output=""/>
+			<key code="56" output=""/>
+			<key code="57" output=""/>
 			<key code="58" output=""/>
 			<key code="64" output="&#x0010;"/>
 			<key code="66" output="&#x001D;"/>
@@ -685,6 +689,7 @@
 			<key code="51" output="&#x0008;"/>
 			<key code="53" output="&#x001B;"/>
 			<key code="55" output=""/>
+			<key code="56" output=""/>
 			<key code="58" output=""/>
 			<key code="64" output="&#x0010;"/>
 			<key code="66" output="&#x001D;"/>
