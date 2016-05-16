@@ -1,10 +1,10 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 3.0.3.70 on 2016-04-06 at 07:24 (GMT+3)-->
-<!--Last edited by Ukelele version 3.0.3.70 on 2016-05-16 at 21:40 (GMT+4:30)-->
-<keyboard group="126" id="-16090" name="Russian Yod" maxout="2">
+<!--Last edited by Ukelele version 3.0.3.70 on 2016-05-16 at 22:04 (GMT+4:30)-->
+<keyboard group="126" id="-19534" name="Russian Yod" maxout="2">
 	<layouts>
-		<layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
+		<layout first="0" last="17" mapSet="JIS" modifiers="Modifiers"/>
 		<layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
 		<layout first="21" last="23" mapSet="JIS" modifiers="Modifiers"/>
 		<layout first="30" last="30" mapSet="JIS" modifiers="Modifiers"/>
@@ -969,9 +969,6 @@
 		</action>
 		<action id="+">
 			<when state="none" output="9"/>
-		</action>
-		<action id=", 1">
-			<when state="none" output="ц"/>
 		</action>
 		<action id=", 2">
 			<when state="none" output="ц"/>
