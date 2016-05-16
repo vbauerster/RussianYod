@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 3.0.3.70 on 2016-04-06 at 07:24 (GMT+3)-->
-<!--Last edited by Ukelele version 3.0.3.70 on 2016-05-16 at 20:21 (GMT+4:30)-->
-<keyboard group="126" id="-29746" name="Russian Yod" maxout="3">
+<!--Last edited by Ukelele version 3.0.3.70 on 2016-05-16 at 20:30 (GMT+4:30)-->
+<keyboard group="126" id="-7849" name="Russian Yod" maxout="2">
 	<layouts>
 		<layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
 		<layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
@@ -61,7 +61,7 @@
 			<key code="9" action="k"/>
 			<key code="11" output="x"/>
 			<key code="12" action=";"/>
-			<key code="13" action=", 1"/>
+			<key code="13" action=", 2"/>
 			<key code="14" action="."/>
 			<key code="15" action="p"/>
 			<key code="16" action="f"/>
@@ -1040,146 +1040,108 @@
 	<actions>
 		<action id=" ">
 			<when state="none" output=" "/>
-			<when state="deep state" output=", "/>
 		</action>
 		<action id="!">
 			<when state="none" output="!"/>
-			<when state="deep state" output="!="/>
 		</action>
 		<action id="&#x0027;">
 			<when state="none" output="&#x0027;"/>
-			<when state="deep state" output="`"/>
 		</action>
 		<action id="*">
 			<when state="none" output="*"/>
-			<when state="deep state" output="*="/>
 		</action>
 		<action id="+">
 			<when state="none" output="+"/>
-			<when state="deep state" output="+="/>
-		</action>
-		<action id=",">
-			<when state="none" next="deep state"/>
-			<when state="deep state" output="&#x0022;"/>
 		</action>
 		<action id=", 1">
 			<when state="none" output="ц"/>
-			<when state="deep state" output="&#x0022;"/>
+		</action>
+		<action id=", 2">
+			<when state="none" output="ц"/>
 		</action>
 		<action id="-">
 			<when state="none" output="-"/>
-			<when state="deep state" output="-="/>
 		</action>
 		<action id=".">
 			<when state="none" output="."/>
-			<when state="deep state" output="%"/>
 		</action>
 		<action id=";">
 			<when state="none" output="й"/>
-			<when state="deep state" output="~"/>
 		</action>
 		<action id="=">
 			<when state="none" output="="/>
-			<when state="deep state" output="=="/>
 		</action>
 		<action id="= 1">
 			<when state="none" output="="/>
-			<when state="deep state" output="==="/>
 		</action>
 		<action id="a">
 			<when state="none" output="a"/>
-			<when state="deep state" output="^"/>
 		</action>
 		<action id="b">
 			<when state="none" output="b"/>
-			<when state="deep state" output="0"/>
 		</action>
 		<action id="c">
 			<when state="none" output="c"/>
-			<when state="deep state" output="3"/>
 		</action>
 		<action id="d">
 			<when state="none" output="d"/>
-			<when state="deep state" output="!"/>
 		</action>
 		<action id="e">
 			<when state="none" output="e"/>
-			<when state="deep state" output="$"/>
 		</action>
 		<action id="f">
 			<when state="none" output="f"/>
-			<when state="deep state" output="#"/>
 		</action>
 		<action id="g">
 			<when state="none" output="g"/>
-			<when state="deep state" output="1"/>
 		</action>
 		<action id="h">
 			<when state="none" output="h"/>
-			<when state="deep state" output="2"/>
 		</action>
 		<action id="i">
 			<when state="none" output="i"/>
-			<when state="deep state" output="\"/>
 		</action>
 		<action id="j">
 			<when state="none" output="j"/>
-			<when state="deep state" output="&#x003C;="/>
 		</action>
 		<action id="k">
 			<when state="none" output="k"/>
-			<when state="deep state" output="&#x003E;="/>
 		</action>
 		<action id="m">
 			<when state="none" output="m"/>
-			<when state="deep state" output="7"/>
 		</action>
 		<action id="n">
 			<when state="none" output="n"/>
-			<when state="deep state" output="6"/>
 		</action>
 		<action id="o">
 			<when state="none" output="o"/>
-			<when state="deep state" output="_"/>
 		</action>
 		<action id="p">
 			<when state="none" output="p"/>
-			<when state="deep state" output="|"/>
 		</action>
 		<action id="q">
 			<when state="none" output="q"/>
-			<when state="deep state" output="@"/>
 		</action>
 		<action id="r">
 			<when state="none" output="r"/>
-			<when state="deep state" output="5"/>
 		</action>
 		<action id="s">
 			<when state="none" output="s"/>
-			<when state="deep state" output=":="/>
 		</action>
 		<action id="t">
 			<when state="none" output="t"/>
-			<when state="deep state" output="4"/>
 		</action>
 		<action id="u">
 			<when state="none" output="u"/>
-			<when state="deep state" output="&#x0026;"/>
 		</action>
 		<action id="v">
 			<when state="none" output="v"/>
-			<when state="deep state" output="9"/>
 		</action>
 		<action id="w">
 			<when state="none" output="w"/>
-			<when state="deep state" output="8"/>
 		</action>
 		<action id="y">
 			<when state="none" output="y"/>
-			<when state="deep state" output="?"/>
 		</action>
 	</actions>
-	<terminators>
-		<when state="deep state" output=","/>
-	</terminators>
 </keyboard>
