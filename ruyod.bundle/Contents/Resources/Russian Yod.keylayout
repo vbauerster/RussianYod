@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 3.0.3.70 on 2016-04-06 at 07:24 (GMT+3)-->
-<!--Last edited by Ukelele version 3.0.3.70 on 2016-05-16 at 21:06 (GMT+4:30)-->
+<!--Last edited by Ukelele version 3.0.3.70 on 2016-05-16 at 21:13 (GMT+4:30)-->
 <keyboard group="126" id="-16090" name="Russian Yod" maxout="2">
 	<layouts>
 		<layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
@@ -66,18 +66,18 @@
 			<key code="15" action="p"/>
 			<key code="16" action="f"/>
 			<key code="17" action="y"/>
-			<key code="18" output="&#x0026;"/>
-			<key code="19" output="}"/>
-			<key code="20" output="["/>
-			<key code="21" output="{"/>
+			<key code="18" output="1"/>
+			<key code="19" output="2"/>
+			<key code="20" output="3"/>
+			<key code="21" output="4"/>
 			<key code="22" action="="/>
-			<key code="23" output="("/>
-			<key code="24" output="#"/>
+			<key code="23" output="5"/>
+			<key code="24" output="="/>
 			<key code="25" action="+"/>
 			<key code="26" action="*"/>
 			<key code="27" action="!"/>
-			<key code="28" output=")"/>
-			<key code="29" output="]"/>
+			<key code="28" output="8"/>
+			<key code="29" output="0"/>
 			<key code="30" output="ъ"/>
 			<key code="31" action="r"/>
 			<key code="32" action="g"/>
@@ -174,18 +174,18 @@
 			<key code="15" output="К"/>
 			<key code="16" output="Н"/>
 			<key code="17" output="Е"/>
-			<key code="18" output="%"/>
-			<key code="19" output="7"/>
-			<key code="20" output="5"/>
-			<key code="21" output="3"/>
-			<key code="22" output="9"/>
-			<key code="23" output="1"/>
-			<key code="24" output="`"/>
-			<key code="25" output="4"/>
-			<key code="26" output="0"/>
-			<key code="27" output="8"/>
-			<key code="28" output="2"/>
-			<key code="29" output="6"/>
+			<key code="18" output="!"/>
+			<key code="19" output="&#x0022;"/>
+			<key code="20" output="№"/>
+			<key code="21" output=";"/>
+			<key code="22" output=":"/>
+			<key code="23" output="%"/>
+			<key code="24" output="+"/>
+			<key code="25" output="("/>
+			<key code="26" output="?"/>
+			<key code="27" output="_"/>
+			<key code="28" output="*"/>
+			<key code="29" output=")"/>
 			<key code="30" output="Ъ"/>
 			<key code="31" output="Щ"/>
 			<key code="32" output="Г"/>
@@ -457,18 +457,18 @@
 			<key code="15" output="К"/>
 			<key code="16" output="Н"/>
 			<key code="17" output="Е"/>
-			<key code="18" output="&#x0026;"/>
-			<key code="19" output="7"/>
-			<key code="20" output="5"/>
-			<key code="21" output="3"/>
-			<key code="22" output="9"/>
-			<key code="23" output="1"/>
-			<key code="24" output="#"/>
-			<key code="25" output="4"/>
-			<key code="26" output="0"/>
-			<key code="27" output="8"/>
-			<key code="28" output="2"/>
-			<key code="29" output="6"/>
+			<key code="18" output="1"/>
+			<key code="19" output="2"/>
+			<key code="20" output="3"/>
+			<key code="21" output="4"/>
+			<key code="22" output="6"/>
+			<key code="23" output="5"/>
+			<key code="24" output="="/>
+			<key code="25" output="9"/>
+			<key code="26" output="7"/>
+			<key code="27" output="-"/>
+			<key code="28" output="8"/>
+			<key code="29" output="0"/>
 			<key code="30" output="Ъ"/>
 			<key code="31" output="Щ"/>
 			<key code="32" output="Г"/>
@@ -591,7 +591,7 @@
 			<key code="41" output="s"/>
 			<key code="42" output="|"/>
 			<key code="43" output="w"/>
-			<key code="44" output="z"/>
+			<key code="44" output=","/>
 			<key code="45" output="b"/>
 			<key code="46" output="m"/>
 			<key code="47" output="v"/>
@@ -1053,16 +1053,16 @@
 			<when state="none" output=" "/>
 		</action>
 		<action id="!">
-			<when state="none" output="!"/>
+			<when state="none" output="-"/>
 		</action>
 		<action id="&#x0027;">
 			<when state="none" output="я"/>
 		</action>
 		<action id="*">
-			<when state="none" output="*"/>
+			<when state="none" output="7"/>
 		</action>
 		<action id="+">
-			<when state="none" output="+"/>
+			<when state="none" output="9"/>
 		</action>
 		<action id=", 1">
 			<when state="none" output="ц"/>
@@ -1080,7 +1080,7 @@
 			<when state="none" output="й"/>
 		</action>
 		<action id="=">
-			<when state="none" output="="/>
+			<when state="none" output="6"/>
 		</action>
 		<action id="= 1">
 			<when state="none" output="="/>
